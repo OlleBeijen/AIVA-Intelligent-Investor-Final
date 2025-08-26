@@ -1,0 +1,21 @@
+
+universe:
+  - AAPL
+  - MSFT
+  - ASML.AS
+  - AD.AS
+  - PHIA.AS
+sectors:
+  Tech:
+    - AAPL
+    - MSFT
+    - NVDA
+    - ASML.AS
+  Industrials:
+    - AD.AS
+  Health:
+    - PHIA.AS
+risk:
+  max_weight: 0.20
+  cash_min: 0.00
+  cash_max: 0.30
